@@ -97,3 +97,19 @@ public class Main {
           numero1 += "0";
           etiqueta3.setText(numero1);
     }                                    
+ private void sumaActionPerformed(java.awt.event.ActionEvent evt) {                                     
+        if(etiqueta3.getText().equals("")|| contador != 0){
+           operaciones();
+           etiqueta2.setText("+");
+        }
+    }                                    
+
+    private void restaActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        //si etiqueta 3 no tiene ningun texto o contador sea diferente de 0
+        //entonces operaciones
+        if(etiqueta3.getText().equals("")|| contador != 0){
+           operaciones();
+           etiqueta2.setText("-");//aqui coloco que me aparesca la resta en etiqueta 2
+        }
+    }                       
+    
