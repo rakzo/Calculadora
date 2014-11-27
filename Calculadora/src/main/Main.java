@@ -40,3 +40,60 @@ public class Main {
 
 
 }
+
+
+ private void num1ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+          numero1 += "1";//+=porque es una variable tipo string, donde cada vez que oprima este
+          //boton lo voy a agregar ese caracter a ese sting
+          etiqueta3.setText(numero1);//utilizo la primera etiqueta
+    }                                    
+
+    private void num2ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+          numero1 += "2";
+          etiqueta3.setText(numero1);
+    }                                    
+
+    private void num3ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+          numero1 += "3";
+          etiqueta3.setText(numero1);
+    }                                    
+
+    private void num4ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+          numero1 += "4";
+          etiqueta3.setText(numero1);
+    }                                    
+
+    private void num5ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+          numero1 += "5";
+          etiqueta3.setText(numero1);
+    }                                    
+
+    private void num6ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+          numero1 += "6";
+          etiqueta3.setText(numero1);
+    }                                    
+
+    private void num7ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+          numero1 += "7";
+          etiqueta3.setText(numero1);
+    }                                    
+
+    private void num8ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+          numero1 += "8";
+          etiqueta3.setText(numero1);
+    }                                    
+
+    private void num9ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+          numero1 += "9";
+          etiqueta3.setText(numero1);
+    }                                    
+
+    private void puntoActionPerformed(java.awt.event.ActionEvent evt) {                                      
+          numero1 += ".";
+          etiqueta3.setText(numero1);
+    }                                     
+
+    private void num0ActionPerformed(java.awt.event.ActionEvent evt) {                                     
+          numero1 += "0";
+          etiqueta3.setText(numero1);
+    }                                    
