@@ -111,7 +111,12 @@ public class Main {
            operaciones();
            etiqueta2.setText("-");//aqui coloco que me aparesca la resta en etiqueta 2
         }
-        
+        private void porActionPerformed(java.awt.event.ActionEvent evt) {                                    
+        if(etiqueta3.getText().equals("")|| contador != 0){
+           operaciones();
+           etiqueta2.setText("*");
+        }
+    }                 
           private void divisionActionPerformed(java.awt.event.ActionEvent evt) {                                         
         if(etiqueta3.getText().equals("")|| contador != 0){
            operaciones();
