@@ -7,5 +7,10 @@ public class operaciones {
            etiqueta2.setText("*");
         }
     }                                   
-
+private void divisionActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        if(etiqueta3.getText().equals("")|| contador != 0){
+           operaciones();
+           etiqueta2.setText("/");
+        }
+    }                  
 }
